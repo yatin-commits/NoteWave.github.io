@@ -1,104 +1,127 @@
-* font-family: 'Italianno', cursive;
-font-family: 'Noto Sans Mono', monospace;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
-
-
-*{
-    margin: 0;
-    padding: 0;
-    /* border: 1px solid black; */
-    cursor: default;
+.contact-us{
+    text-align: center;
+    font-size:60px;
+    font-family: 'poppins', cursive;
+    color:#0550A0;
+   letter-spacing: 8px;
+   text-decoration: underline;
+   font-weight: bold;
 }
-.sub-head1{
-    height: 200px;
-}
-.navbolte{
-    margin-top: 10px;
-    /* padding: 10px; */
-}
-#home{
-    /* color: rgb(0, 0, 0); */
-    margin-left: 26px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 19px;
-    border-radius: 10px;
-    /* padding: 10px; */
-}
-#home{
-    background-color: black;
-  
-    color: white;
-    border-radius: 10px;
-}
-#subscription{
-    /* color: rgb(0, 0, 0); */
-    margin-left: 26px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 19px;
-    border-radius: 10px;
-}
-#subscription:hover{
-    /* border-radius: 10%; */
-    /* border-left: 1px solid black;
-    border-right: 1px solid black; */
-    background: black;
-    color: white;
-    border-radius: 10px;
-    
-}
-#who{
-    /* color: rgb(0, 0, 0); */
-    margin-left: 26px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 19px;
-    border-radius: 10px;
-}
-.products{
-    /* margin-left: 26px; */
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 19px;
-    border-radius: 10px;
+.cont-img{
+    height: 400px;
 }
 
-.banner-img{
-    height: 50px;
+.images{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+
+
 }
-.btn{
-    /* width: 50px; */
+#faram{
+    width: 500px;
 }
-.bca{
-    height: 250px;
-    width: 250px;
+.faram{
+
+    width: 500px;
 }
-#who:hover{
-    /* border-radius: 10%; */
-    /* border-left: 1px solid black;
-    border-right: 1px solid black; */
-    background: black;
+.small-img{
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    padding: 8px;
+}
+.link-img{
+    display: flex;
+    justify-content: space-around ;
+    /* text-align: center; */
+    align-items: center;
+    width: 500px;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+.cont-btn{
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    background: #0550A0;
     color: white;
-    border-radius: 10px;
-    
+    font-weight: 500;
+
+
 }
-#navbarDropdown{
-    color: rgb(0, 0, 0);
-    margin-left: 25px;
-    font-size: 19px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    } 
-#login{
-    margin-left: 20px;
-    
-}  
-.phone{
-    border: 1px solid black;
+.dividetext{
+    background:#fff; 
+    padding:0 10px; 
 }
-.about{
-    padding: 20px;
-}
+text {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+.form-group{
+     width: 500px;
+ }
+ @media screen and (min-device-width: 100px) and (max-device-width: 450px) { 
+     .images{
+         flex-wrap: wrap;
+         padding: 20px;
+         margin-top: 0px;
+         flex-direction: column-reverse;
+         justify-content: space-between;
+     }
+     
+     .contact-us{
+         font-size: 50px;
+     }
+     .link-img{
+         border-right: 0px;
+         height: auto;
+         /* border-bottom: 2px solid black; */
+         /* padding: 20px; */
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         margin: 0px;
+     }
+
+     .form-group{
+         width: 100%;
+
+     }
+     .remove{
+         display: none;
+     }
+     .small-img{
+         height: 50px;
+         width: 50px;
+         margin-top: -30px;
+     }
+     .cont-btn{
+         display: none;
+     }
+     .faram{
+         width: 100%;
+         padding: 20px;
+         /* padding-bottom: 0; */
+     }
+     #faram{
+         width: 100%;
+         padding-bottom: 0;
+     }
+     .faram button{
+         text-align: center;
+         align-items: center;
+         justify-content: center;
+     }
+     .noneed{
+         display: none;
+     }
+     .text{
+         border: 0px;
+     }
+
+
+ }

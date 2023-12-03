@@ -1,8 +1,26 @@
-* font-family: 'Italianno', cursive;
+/* * font-family: 'Italianno', cursive;
 font-family: 'Noto Sans Mono', monospace;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Ubuntu', sans-serif; */
+font-family: 'Ubuntu', sans-serif;  */
+
+
+.loginImg
+{
+    height: 30px;
+    margin: 5px;
+
+}
+
+.nav-item img{
+    text-align: center;
+    align-items: center;
+    /* display: flex; */
+    cursor: pointer;
+
+}
+
+
 
 
 *{
@@ -25,12 +43,13 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: bolder;
     font-size: 19px;
     border-radius: 10px;
+    cursor: pointer;
     /* padding: 10px; */
 }
-#home{
+.chalu{
     background-color: black;
   
-    color: white;
+    color: white !important; 
     border-radius: 10px;
 }
 #subscription{
@@ -50,6 +69,11 @@ font-family: 'Ubuntu', sans-serif; */
     border-radius: 10px;
     
 }
+.loginClass
+{
+    display: none;
+}
+
 #who{
     /* color: rgb(0, 0, 0); */
     margin-left: 26px;
@@ -57,6 +81,7 @@ font-family: 'Ubuntu', sans-serif; */
     font-weight: bolder;
     font-size: 19px;
     border-radius: 10px;
+    cursor:pointer;
 }
 .products{
     /* margin-left: 26px; */
@@ -76,15 +101,23 @@ font-family: 'Ubuntu', sans-serif; */
     height: 250px;
     width: 250px;
 }
-#who:hover{
+#who img{
+    /* display: none; */
+    height: 30px;
+    margin: -5px -5px;
+    cursor: pointer;
+
+}
+
+/* #who:hover{ */
     /* border-radius: 10%; */
     /* border-left: 1px solid black;
     border-right: 1px solid black; */
-    background: black;
+    /* background: black;
     color: white;
     border-radius: 10px;
     
-}
+} */
 #navbarDropdown{
     color: rgb(0, 0, 0);
     margin-left: 25px;

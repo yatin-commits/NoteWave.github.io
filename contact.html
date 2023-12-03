@@ -4,7 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./contact.css ">
+    <link rel="stylesheet" href="./index.css ">
+    <link rel="stylesheet" href="contact.css">
 
     
     <!-- Bootstrap CSS -->
@@ -16,7 +17,7 @@
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
    
-<title>CONTACT US</title>
+<title>HOME</title>
   </head>
   <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -28,7 +29,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse testing" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto    mb-2 mb-lg-0">
             <li class="nav-item nav_home">
               <a class="nav-link active  " id="home" aria-current="page"  href="./index.html">Home</a>
@@ -49,36 +50,67 @@
                 <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
               </ul>
             </li>
+            <li class="nav-item "> 
+               <a class="nav-link active chalu " id="who" aria-current="page" href="./contact.html">Contact Us</a> 
+               <!-- <img class="loginImg" src="./user.png" alt=""> -->
+            </li>
              
-              <li class="nav-item ">  
-                <a class="nav-link active " id="who" aria-current="page" href="./contact.html">ABOUT US</a>
+              <li class="nav-item "> 
+                 <a class="nav-link active  " id="who" aria-current="page" href="./NewLogin.html"><img src="./user.png" height="40px" alt="" srcset=""></a> 
+                 <!-- <img class="loginImg" src="./user.png" alt=""> -->
               </li>
              
             
-
-              
         </div>
       </div>
-    </nav>
-    <H1><CENter>ABOUT US</CENter></H1>
-    <P class="about">
-        Jagannath Gupta Memorial Educational Society was set up in the memory of Late Shri Jagannath Gupta. It is registered under the Societies Registration Act, 1860 and is a not-for-profit society. Ever since its beginning, the Society has dedicated itself to the cause of providing quality education in various professional spheres. It set up its first educational institution, Jagan Institute of Management Studies, in 1993. Since then, the Society has gradually set up various educational institutions whose chronological order is as follows: <br>
+    </nav>  
+      <!-- content -->
+<br >
+      <h1 class="contact-us">Contact Us</h1><br class="noneed">
+      <div class="images">
+
+        <!-- <img src="./contactus.gif " alt="" srcset="" class="cont-img"> -->
+        <div class="link-img">
+          <div style="display: flex; flex-direction: column;">
+          <img src="./gmail.png" alt="" srcset="" class="small-img">
+          <button class="cont-btn">MAIL-US</button><br>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+          <img src="./call.png" alt="" srcset="" class="small-img">
+          <button class="cont-btn">CALL-US</button><br>
+        </div>
+        <div style="display: flex; flex-direction: column;">
+          <img src="./location.png" alt="" srcset="" class="small-img">
+          <button class="cont-btn">CALL-US</button><br>
+        </div>
+        </div>
+    
+<!-- form -->
+<hr class="remove">
 <br>
-Jagan Institute of Management Studies, Rohini <br>
-Jagannath International Management School, Vasant Kunj <br>
-Jagannath Gupta Institute of Engineering & Technology, Jaipur <br>
-Jagan Institute of Management Studies, Jaipur <br>
-JIMS Engineering Management Technical Campus, Greater Noida <br>
-Jagannath University, Jaipur <br>
-Jagannath International Management School, Kalkaji <br>
-Jagannath University, NCR <br>
-Jagannath Community College, Rohini <br><br>
-In this manner the Society has achieved a complete integration in education offering opportunities to the students right from graduate level to Ph.D level. The Society is providing educational services mainly in the areas of management, information technology, engineering, architecture, law, journalism, fashion and information designing, physiotherapy etc. At present, the Society has a combined strength of more than 10000 students and more than 600 faculty members. All these educational institutions are duly approved and accredited by and affiliated to respective statutory bodies such as AICTE, UGC, AIU, NBA, State Governments, and the universities. These institutions are well known among all stakeholders for quality education, decent infrastructure, location and placements. These institutions are rated and ranked very high by various magazines, newspapers and industry associations. <br>
+<div class="container" id="faram">
+  <h1 class="faram">Message US</h1>
+  <form target="_blank" action="https://formsubmit.co/sharmayatin0882@gmail.com " method="POST" class="faram">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div><br>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div><br>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="5" required></textarea>
+    </div><br>
+    <button type="submit" class="btn btn-lg btn-dark btn-block" style="background: rgb(131,58,180); border:0px">Submit Form</button>
+    <br><br>
+  </form>
+</div>
+</div>
 
-The Society has never ignored its social responsibility towards the Society. It has always been discharging its responsibility right from its inception in various ways such as abhiyuthan, Karmaarth, Sansad Adarsh Gram Yojna, Unnat Bharat Abhiyan etc. In recent years, the Society has been contributing substantially by actively participating in the Skill India Initiative of the Government of India. It encourages budding young entrepreneurs by providing consultancy services and seed capital. Its various institutions take part in Skill India Initiative of Govt. of India in Pradhan Mantri Kaushal Vikas Yojna and vocational programmes run by AICTE and UGC.
-    </P>
 
 
-
-    </body>
-    </html>
+      </body>
+      </html>

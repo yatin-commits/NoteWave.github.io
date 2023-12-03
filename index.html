@@ -28,10 +28,10 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse testing" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto    mb-2 mb-lg-0">
             <li class="nav-item nav_home">
-              <a class="nav-link active  " id="home" aria-current="page"  href="./index.html">Home</a>
+              <a class="nav-link active chalu" id="home" aria-current="page"  href="./index.html">Home</a>
             </li>
             <li class="nav-item dropdown products">
               <a class="nav-link dropdown-toggle "  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,9 +49,14 @@
                 <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
               </ul>
             </li>
+            <li class="nav-item "> 
+               <a class="nav-link active " id="who" aria-current="page" href="./contact.html">Contact Us</a> 
+               <!-- <img class="loginImg" src="./user.png" alt=""> -->
+            </li>
              
-              <li class="nav-item ">  
-                <a class="nav-link active " id="who" aria-current="page" href="./contact.html">ABOUT US</a>
+              <li class="nav-item "> 
+                 <a class="nav-link active  " id="who" aria-current="page" href="./NewLogin.html"><img src="./user.png" height="40px" alt="" srcset=""></a> 
+                 <!-- <img class="loginImg" src="./user.png" alt=""> -->
               </li>
              
             
@@ -164,8 +169,42 @@
  
  
   
-  
-    
+  //////
+  <!-- ... (your existing code) ... -->
+
+<div id="modal" class="modal-background">
+  <div class="modal-content">
+      <!-- Login form -->
+      <div id="loginForm">
+          <h2>Login</h2>
+          <label for="loginUsername">Username:</label>
+          <input type="text" id="loginUsername" name="loginUsername" required>
+
+          <label for="loginPassword">Password:</label>
+          <input type="password" id="loginPassword" name="loginPassword" required>
+
+          <button type="button" onclick="login()">Login</button>
+
+          <p>Don't have an account? <button onclick="showSignupForm()">Signup</button></p>
+      </div>
+
+      <!-- Signup form (hidden by default) -->
+      <div id="signupForm" style="display: none;">
+          <h2>Signup</h2>
+          <label for="signupUsername">Username:</label>
+          <input type="text" id="signupUsername" name="signupUsername" required>
+
+          <label for="signupPassword">Password:</label>
+          <input type="password" id="signupPassword" name="signupPassword" required>
+
+          <button type="button" onclick="signup()">Signup</button>
+
+          <p>Already have an account? <button onclick="showLoginForm()">Login</button></p>
+      </div>
+  </div>
+</div>
+
+
 
         
 
